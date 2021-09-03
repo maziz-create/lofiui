@@ -15,7 +15,7 @@ npm install --save lofiui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'lofiui'
+import Button from 'lofiui'
 import 'lofiui/dist/index.css'
 
 class Example extends Component {
