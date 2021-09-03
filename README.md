@@ -20,7 +20,9 @@ import 'lofiui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button text="Click ME" />
+    return <Button type={Primary} text="Click ME" />
+    return <Button type={Secondary} text="Click ME" />
   }
 }
 ```
