@@ -1,10 +1,19 @@
 import React from 'react'
 
-import { ExampleComponent } from 'lofiui'
+import { Button } from 'lofiui'
 import 'lofiui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return(
+    <>
+      <Button type="Primary" text="Click ME" />
+      <br /><br />
+      <Button text="Click ME" />
+      <br /><br />
+      <Button type="Secondary" text="Click ME" />
+    </>
+  )
+
 }
 
 export default App
